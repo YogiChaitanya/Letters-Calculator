@@ -1,0 +1,65 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.calculation-card {
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: left;
+  width: 200px;
+}
+
+.search-input {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+
+  outline: none;
+}
+.image-card {
+  padding: 10px;
+
+  margin-bottom: 10px;
+}
+
+.letters-img {
+  width: 400px;
+  padding: 10px;
+}
+
+.reset-btn {
+  background-color: #ffffff;
+
+  color: #219a6f;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+
+  margin-top: 10px;
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
